@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AERO RESCUERS 24</title>
+    <link rel="stylesheet" href="Style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+    <nav class="nav">
+      <div class="Lgo">
+        <img class="Logo" src="Logo.jpg"/>
+      </div>  
+      <ul class="navList">
+        <li onclick="Home()">Abstract</li>
+        <li onclick="comp()">Components</li>
+        <li onclick="Arch()">Architecture</li>
+        <li onclick="About()">About</li>
+      </ul>  
+      <i onclick="menu()" class="fa-solid fa-bars"></i>
+    </nav><br/>
+    <div id="menu">
+        <i onclick="menu()" class="fa-solid fa-circle-xmark"></i>
+        <div id="mnu" onclick="Home()">Abstract</div>
+        <div id="mnu" onclick="comp()">Components</div>
+        <div id="mnu" onclick="Arch()">Architecture</div>
+        <div id="mnu" onclick="About()">About</div>
+    </div>
+    <div class="Abstract" id="Home">
+        <div class="Statement">
+            <h1 class="hed">PROBLEM STATEMENT</h1><br/><br/><br/>
+            <p>The problem statement identified was there is a lot of man powers usage to analyze the problems such as fire accidents, road accidents and to carry on these messages to the respective division without the help of man power. As these problems are only identified by the man power which makes them uncomfortable in some of the times so this can be solved by a unarmed aerial vehicle (Drone) and also by using the drone it is possible to reduce the time period which is generally consumed by the man-power to communicate messages.</p>
+          </div>
+      <div class="Abs">
+        <h1 class="hed">ABSTRACT</h1><br/><br/><br/>
+        <p>Drones are used in many applications such as spying in military bases, delivering first aid kits and for larger aerial view photographs. Here is a proposal idea of patrolling drone which uses AI and ML technology to sense the activities such as fire and road accidents, where those type of activities are communicated with the respective departments for faster rescue operation. Once if there is a detection of fire and road accidents then the drone automatically transmits the location and the type of accident occurred with the respective departments by this way of approach major affect caused due to those problems can be reduced. Here, the simulation model is done by using Python program. The simulation model practiced on Python version 3.9.11 has two parts of simulation where, one is made for detection of fire accidents and the other one is made for detection of road accidents and the prototype model is developed where, the output from the drone is transmitted to the respective departments once after identification of road and fire accidents. This way of approach is attained by the usage of image classification technique.</p>
+      </div>
+    </div>
+    <div class="Components" id="Components">
+      <div class="cmp">
+        <h2>COMPONENTS USED</h2>
+       <ul class="liss">
+        <li>Raspberry Pi Pico</li>
+        <li>Raspberry Pi Zero</li>
+        <li>GPS Module</li>
+        <li>MPU6050 Accelerometer and Gyroscope Sensor Guide</li>
+        <li>QMC5883L THREE AXIS COMPASS MAGENTOMETER MODULE GY-271, 12C INTERFACE</li>
+        <li>Raspberry Pi Camera</li>
+        <li>Drone Frame</li>
+        <li>Motors, ESCs, And Propellers</li>
+        <li>Power Supply and connectors</li>
+        <li>Monitor</li>
+        <li>Raspberry Pi 8gb</li>
+        <li>Keyboard, Mouse, Cables</li>
+       </ul>
+      </div>
+      <div class="imgs">
+        <img class="pi" src="ras.jpg"/>
+        <img class="pi" src="drone motor.jpg"/>
+      </div>
+    </div>
+    <div class="Architecture" id="Arch">
+     <div class="imm1">
+      <h1>BLOCK DIAGRAM</h1>
+      <img class="arc" src="arc.jpg"/>
+     </div>
+     <div class="imm1">
+      <img class="nww" src="setuo.jpg"/>
+      <h3>The above Figure is the prototype model of the patrolling drone for detection of road and fire accidents and to communicate those accidents at a faster rate with the respective departments for prevention of greater affect after the accidents occurrence.</h3>
+     </div>
+    </div>
+    <div class="About" id="Abt"><br/>  
+     <h1>ABOUT US</h1><br/>  
+     <div class="Abo">
+       <h3>Team Member 1 : GOKUL RAJ K</h3>
+       <h3>Team Member 2 : SARATH S</h3>
+       <h3>Team Member 3 : THEERTHAVASAN M</h3><br/>
+       <h3>Contact Us : +91 7305263062</h3>
+       <h3>Gmail : sit21ee008@sairamtap.edu.in</h3>
+     </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>

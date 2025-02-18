@@ -1,0 +1,388 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scrollbar-width: none;
+}
+@media screen and (max-width : 2700px){
+.nav{
+    background: linear-gradient(to left, red, black, green);
+    color: white;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    border-top: none;
+    width: 99vw;
+    padding: 5px;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+#menu{
+    display: none;
+}
+.hed{
+    margin-top: 15px;
+}
+body{
+    background-color: black;
+    width: 100vw;
+}
+.Lgo{
+    display: flex;
+    margin-right: 35px;
+}
+.fa-solid{
+    display: none !important;
+}
+.Logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.navList{
+    list-style: none;
+    display: flex;
+}
+.navList li{
+    margin-right: 50px;
+    padding: 10px;
+}
+.navList li:hover{
+    background-color: rgb(159, 158, 156);
+    color: black;
+}
+.Abstract{
+    width: 100vw;
+    margin-top: 70px;
+    height: 80vh;
+    display: flex;
+    background: linear-gradient(60deg, red, black, green);
+    justify-content: space-around;
+}
+.Statement, .Abs{
+    flex-basis: 40%;
+    text-align: center;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px;
+    border: 2px solid white;
+    backdrop-filter: blur(185px);
+}
+.Statement:hover{
+    transition-duration: 0.4s;
+    flex-basis: 45%;
+}
+.Abs:hover{
+    transition-duration: 0.4s;
+    flex-basis: 45%;
+}
+.Components{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: linear-gradient(60deg, green, black, red);
+}
+.cmp{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-basis: 35%;
+    border-radius: 40px;
+    background-color: rgb(195, 191, 191);
+    opacity: 0.5;
+    box-shadow: -15px -15px 35px black;
+    color: black;
+}
+.cmp:hover{
+    transition-duration: 0.4s;
+    flex-basis: 40%;
+}
+.liss li{
+    margin-bottom: 10px;
+}
+.pi{
+    height: 45%;
+    width: 80%;
+    box-shadow: 10px 10px 25px black;
+    border-radius: 20px;
+}
+.pi:hover{
+    transition-duration: 0.4s;
+    height: 50%;
+    width: 85%;
+}
+.imgs{
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Architecture{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: linear-gradient(150deg, rgb(227, 38, 38), black, green);
+}
+.imm1{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 50px;
+    opacity: 0.9;
+    box-shadow: 8px 8px 15px black;
+    background-color: rgb(191, 181, 176);
+}
+.imm1:hover{
+    transition-duration: 0.4s;
+    flex-basis: 45%;
+}
+.arc{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+}
+.nww{
+    height: 40%;
+    width: 80%;
+    border-radius: 20px;
+}
+.About{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    background: linear-gradient(60deg, green, black,red);
+}
+.Abo{
+   flex-basis: 90%;
+   height: fit-content;
+   display: flex;
+   padding: 20px 70px;
+   flex-direction: column;
+   border: 1px solid white;
+   box-shadow: -5px -5px 15px red;
+   cursor: pointer;
+}
+}
+
+@media screen and (max-width : 1120px){
+    .nav{
+        display: flex;
+        background: linear-gradient(to left, red, black, green);
+        color: white;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+        padding: 0px;
+        position: relative;
+        flex-wrap: wrap;
+        z-index: 1;
+        height: 50px;
+    }
+    #menu{
+        position: absolute;
+        z-index: 5;
+        top: 0px;
+        right: 0px;
+        height: fit-content;
+        width: 30%;
+        padding: 20px;
+        display: none;
+        color: white;
+        background-color: black;
+    }
+    #menu i{
+        font-size: 25px;
+    }
+    #mnu{
+        border: 1px solid white;
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    #mnu:hover{
+        background-color: gray;
+    }
+    .fa-solid{
+        display: block !important;
+        color: white;
+    }
+    body{
+        background-color: black;
+    }
+    .Lgo{
+        display: flex;
+    }
+    .Logo{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+    .navList{
+        display: none;
+    }
+    .Abstract{
+        display: flex;
+        background: linear-gradient(60deg, red, black, green);
+        margin-top: 10px;
+        flex-wrap: wrap;
+        height: fit-content;
+    }
+    .Statement{
+        flex-basis: 95%;
+        text-align: center;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-radius: 50px;
+        background: transparent;
+        backdrop-filter: blur(165px);
+    }
+    .hed{
+        margin-top: 15px;
+    }
+    .Abs{
+        flex-basis: 95%;
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        font-size: 10px;
+        border-radius: 50px;
+        background: transparent;
+        backdrop-filter: blur(165px);
+    }
+    .Statement:hover{
+        transition-duration: 0.4s;
+        flex-basis: 85%;
+    }
+    .Abs:hover{
+        transition-duration: 0.4s;
+        flex-basis: 85%;
+    }
+    .Components{
+        display: flex;
+        width: 100vw;
+        margin-top: 20px;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    .cmp{
+        flex-basis: 80%;
+        border-radius: 40px;
+    }
+    .cmp:hover{
+        transition-duration: 0.4s;
+        flex-basis: 70%;
+    }
+    .liss{
+        margin-top: 20px;
+    }
+    .liss li{
+        margin-bottom: 5px;
+    }
+    .pi{
+       height: 170px;
+       width: 90%;
+       margin-top: 20px;
+       border-radius: 20px;
+    }
+    .pi:hover{
+        transition-duration: 0.4s;
+        height: 150px;
+        width: 80%;
+    }
+    .imgs{
+        margin-top: 20px;
+        flex-basis: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .Architecture{
+        height: fit-content;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        box-sizing: border-box;
+        color: white;
+        background: linear-gradient(150deg, rgb(227, 38, 38), black, green);
+    }
+    .imm1{
+        flex-basis: 70%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 8px 8px 15px black;
+        flex-wrap: wrap;
+        padding: 20px;
+        border-radius: 50px;
+        opacity: 0.9;
+        font-size: 15px;
+        background-color: rgb(191, 181, 176);
+    }
+    .arc{
+        width: 70%;
+        height: 50%;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+    .nww{
+        height: 50%;
+        width: 70%;
+        margin-bottom: 15px;
+        border-radius: 20px;
+    }
+    .About{
+        width: 100vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40px;
+        background: linear-gradient(60deg, green, black,red);
+    }
+    .Abo{
+       flex-basis: 50%;
+       height: fit-content;
+       display: flex;
+       padding: 20px 70px;
+       flex-direction: column;
+       border: 1px solid white;
+       box-shadow: -5px -5px 15px red;
+    }
+}
